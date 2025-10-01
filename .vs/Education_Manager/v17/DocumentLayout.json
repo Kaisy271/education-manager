@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|D:\\Projects\\Education_Manager\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Projects\\Education_Manager\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T10:37:26.786Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-10-01T10:37:20.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T10:37:20.49Z"
             }
           ]
         }
