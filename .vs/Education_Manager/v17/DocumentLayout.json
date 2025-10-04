@@ -3,20 +3,176 @@
   "WorkspaceRootPath": "D:\\Projects\\Education_Manager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\views\\frcoursemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:views\\frcoursemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|D:\\Projects\\Education_Manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmxemthoikhoabieu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmxemthoikhoabieu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmxemthoikhoabieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmxemthoikhoabieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmthongkediemtheolop.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmthongkediemtheolop.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmthongkediemtheolop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmthongkediemtheolop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlythoikhoabieu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlythoikhoabieu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlythoikhoabieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlythoikhoabieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlynguoidung.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlynguoidung.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlynguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlynguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlymonhoc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlymonhoc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlymonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlymonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlylop.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlylop.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlyloaicsvc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlyloaicsvc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlyloaicsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlyloaicsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlyloaicsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlyloaicsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlykhoi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlykhoi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlykhoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlykhoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlykhenthuong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlykhenthuong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlykhenthuong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlykhenthuong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlyhocsinh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlyhocsinh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlyhocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlyhocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlyhocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlyhocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlygiaovien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlygiaovien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlygiaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlygiaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlygiaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlygiaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlydiem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlydiem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlycosovatchat.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlycosovatchat.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmquanlycosovatchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlycosovatchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmphanconggiangday.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmphanconggiangday.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmphanconggiangday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmphanconggiangday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmbaocaohocky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmbaocaohocky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmbaocaohocky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmbaocaohocky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmdangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmdangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\frmbaocaohocky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmbaocaohocky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\projects\\education_manager\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|D:\\Projects\\Education_Manager\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -39,39 +195,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frCourseManage.cs [Design]",
-              "DocumentMoniker": "D:\\Projects\\Education_Manager\\Views\\frCourseManage.cs",
-              "RelativeDocumentMoniker": "Views\\frCourseManage.cs",
-              "ToolTip": "D:\\Projects\\Education_Manager\\Views\\frCourseManage.cs [Design]",
-              "RelativeToolTip": "Views\\frCourseManage.cs [Design]",
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "DatabaseHelper.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\DatabaseHelper.cs",
+              "RelativeToolTip": "DatabaseHelper.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T10:56:47.443Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "D:\\Projects\\Education_Manager\\Controllers\\CourseController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
-              "ToolTip": "D:\\Projects\\Education_Manager\\Controllers\\CourseController.cs",
-              "RelativeToolTip": "Controllers\\CourseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T10:56:01.343Z",
+              "WhenOpened": "2025-10-04T00:07:11.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Courses.cs",
-              "DocumentMoniker": "D:\\Projects\\Education_Manager\\Models\\Courses.cs",
-              "RelativeDocumentMoniker": "Models\\Courses.cs",
-              "ToolTip": "D:\\Projects\\Education_Manager\\Models\\Courses.cs",
-              "RelativeToolTip": "Models\\Courses.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "frmXemThoiKhoaBieu.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmXemThoiKhoaBieu.Designer.cs",
+              "RelativeDocumentMoniker": "frmXemThoiKhoaBieu.Designer.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmXemThoiKhoaBieu.Designer.cs",
+              "RelativeToolTip": "frmXemThoiKhoaBieu.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T10:55:03.946Z",
+              "WhenOpened": "2025-10-04T00:03:50.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmXemThoiKhoaBieu.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmXemThoiKhoaBieu.cs",
+              "RelativeDocumentMoniker": "frmXemThoiKhoaBieu.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmXemThoiKhoaBieu.cs",
+              "RelativeToolTip": "frmXemThoiKhoaBieu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:03:46.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmThongKeDiemTheoLop.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmThongKeDiemTheoLop.Designer.cs",
+              "RelativeDocumentMoniker": "frmThongKeDiemTheoLop.Designer.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmThongKeDiemTheoLop.Designer.cs",
+              "RelativeToolTip": "frmThongKeDiemTheoLop.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:03:41.801Z",
               "EditorCaption": ""
             },
             {
@@ -82,20 +252,508 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Projects\\Education_Manager\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T10:37:26.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "frmDangNhap.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmDangNhap.cs",
+              "RelativeDocumentMoniker": "frmDangNhap.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmDangNhap.cs",
+              "RelativeToolTip": "frmDangNhap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:00:17.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmMain.cs",
+              "RelativeToolTip": "frmMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:00:52.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmThongKeDiemTheoLop.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmThongKeDiemTheoLop.cs",
+              "RelativeDocumentMoniker": "frmThongKeDiemTheoLop.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmThongKeDiemTheoLop.cs",
+              "RelativeToolTip": "frmThongKeDiemTheoLop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:03:36.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmQuanLyThoiKhoaBieu.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyThoiKhoaBieu.Designer.cs",
+              "RelativeDocumentMoniker": "frmQuanLyThoiKhoaBieu.Designer.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyThoiKhoaBieu.Designer.cs",
+              "RelativeToolTip": "frmQuanLyThoiKhoaBieu.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:03:31.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmQuanLyThoiKhoaBieu.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyThoiKhoaBieu.cs",
+              "RelativeDocumentMoniker": "frmQuanLyThoiKhoaBieu.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyThoiKhoaBieu.cs",
+              "RelativeToolTip": "frmQuanLyThoiKhoaBieu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:03:24.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmQuanLyNguoiDung.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyNguoiDung.Designer.cs",
+              "RelativeDocumentMoniker": "frmQuanLyNguoiDung.Designer.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyNguoiDung.Designer.cs",
+              "RelativeToolTip": "frmQuanLyNguoiDung.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:03:19.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmQuanLyNguoiDung.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyNguoiDung.cs",
+              "RelativeDocumentMoniker": "frmQuanLyNguoiDung.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyNguoiDung.cs",
+              "RelativeToolTip": "frmQuanLyNguoiDung.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:03:14.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmQuanLyMonHoc.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyMonHoc.Designer.cs",
+              "RelativeDocumentMoniker": "frmQuanLyMonHoc.Designer.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyMonHoc.Designer.cs",
+              "RelativeToolTip": "frmQuanLyMonHoc.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:03:09.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmQuanLyMonHoc.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyMonHoc.cs",
+              "RelativeDocumentMoniker": "frmQuanLyMonHoc.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyMonHoc.cs",
+              "RelativeToolTip": "frmQuanLyMonHoc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:03:04.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmQuanLyLop.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyLop.Designer.cs",
+              "RelativeDocumentMoniker": "frmQuanLyLop.Designer.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyLop.Designer.cs",
+              "RelativeToolTip": "frmQuanLyLop.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:02:59.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmQuanLyLop.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyLop.cs",
+              "RelativeDocumentMoniker": "frmQuanLyLop.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyLop.cs",
+              "RelativeToolTip": "frmQuanLyLop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:02:54.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmQuanLyLoaiCSVC.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyLoaiCSVC.Designer.cs",
+              "RelativeDocumentMoniker": "frmQuanLyLoaiCSVC.Designer.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyLoaiCSVC.Designer.cs",
+              "RelativeToolTip": "frmQuanLyLoaiCSVC.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:02:49.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmQuanLyLoaiCSVC.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyLoaiCSVC.cs",
+              "RelativeDocumentMoniker": "frmQuanLyLoaiCSVC.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyLoaiCSVC.cs",
+              "RelativeToolTip": "frmQuanLyLoaiCSVC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:02:45.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmQuanLyLoaiCSVC.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyLoaiCSVC.cs",
+              "RelativeDocumentMoniker": "frmQuanLyLoaiCSVC.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyLoaiCSVC.cs [Design]",
+              "RelativeToolTip": "frmQuanLyLoaiCSVC.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:02:42.812Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmQuanLyKhoi.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyKhoi.Designer.cs",
+              "RelativeDocumentMoniker": "frmQuanLyKhoi.Designer.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyKhoi.Designer.cs",
+              "RelativeToolTip": "frmQuanLyKhoi.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:02:33.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmQuanLyKhoi.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyKhoi.cs",
+              "RelativeDocumentMoniker": "frmQuanLyKhoi.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyKhoi.cs",
+              "RelativeToolTip": "frmQuanLyKhoi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:02:27.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "frmQuanLyKhenThuong.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyKhenThuong.Designer.cs",
+              "RelativeDocumentMoniker": "frmQuanLyKhenThuong.Designer.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyKhenThuong.Designer.cs",
+              "RelativeToolTip": "frmQuanLyKhenThuong.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:02:19.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "frmQuanLyKhenThuong.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyKhenThuong.cs",
+              "RelativeDocumentMoniker": "frmQuanLyKhenThuong.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyKhenThuong.cs",
+              "RelativeToolTip": "frmQuanLyKhenThuong.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:02:15.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frmQuanLyHocSinh.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyHocSinh.Designer.cs",
+              "RelativeDocumentMoniker": "frmQuanLyHocSinh.Designer.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyHocSinh.Designer.cs",
+              "RelativeToolTip": "frmQuanLyHocSinh.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:02:08.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frmQuanLyHocSinh.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyHocSinh.cs",
+              "RelativeDocumentMoniker": "frmQuanLyHocSinh.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyHocSinh.cs",
+              "RelativeToolTip": "frmQuanLyHocSinh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:02:04.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frmQuanLyHocSinh.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyHocSinh.cs",
+              "RelativeDocumentMoniker": "frmQuanLyHocSinh.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyHocSinh.cs [Design]",
+              "RelativeToolTip": "frmQuanLyHocSinh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:02:00.822Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmQuanLyGiaoVien.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyGiaoVien.Designer.cs",
+              "RelativeDocumentMoniker": "frmQuanLyGiaoVien.Designer.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyGiaoVien.Designer.cs",
+              "RelativeToolTip": "frmQuanLyGiaoVien.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:01:55.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "frmQuanLyGiaoVien.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyGiaoVien.cs",
+              "RelativeDocumentMoniker": "frmQuanLyGiaoVien.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyGiaoVien.cs",
+              "RelativeToolTip": "frmQuanLyGiaoVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:01:49.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "frmQuanLyGiaoVien.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyGiaoVien.cs",
+              "RelativeDocumentMoniker": "frmQuanLyGiaoVien.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyGiaoVien.cs [Design]",
+              "RelativeToolTip": "frmQuanLyGiaoVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:01:45.762Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "frmQuanLyDiem.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyDiem.Designer.cs",
+              "RelativeDocumentMoniker": "frmQuanLyDiem.Designer.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyDiem.Designer.cs",
+              "RelativeToolTip": "frmQuanLyDiem.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:01:41.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frmQuanLyDiem.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyDiem.cs",
+              "RelativeDocumentMoniker": "frmQuanLyDiem.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyDiem.cs",
+              "RelativeToolTip": "frmQuanLyDiem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:01:35.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "frmQuanLyCoSoVatChat.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyCoSoVatChat.Designer.cs",
+              "RelativeDocumentMoniker": "frmQuanLyCoSoVatChat.Designer.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyCoSoVatChat.Designer.cs",
+              "RelativeToolTip": "frmQuanLyCoSoVatChat.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:01:26.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "frmQuanLyCoSoVatChat.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmQuanLyCoSoVatChat.cs",
+              "RelativeDocumentMoniker": "frmQuanLyCoSoVatChat.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmQuanLyCoSoVatChat.cs",
+              "RelativeToolTip": "frmQuanLyCoSoVatChat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:01:21.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "frmPhanCongGiangDay.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmPhanCongGiangDay.Designer.cs",
+              "RelativeDocumentMoniker": "frmPhanCongGiangDay.Designer.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmPhanCongGiangDay.Designer.cs",
+              "RelativeToolTip": "frmPhanCongGiangDay.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:01:11.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "frmPhanCongGiangDay.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmPhanCongGiangDay.cs",
+              "RelativeDocumentMoniker": "frmPhanCongGiangDay.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmPhanCongGiangDay.cs",
+              "RelativeToolTip": "frmPhanCongGiangDay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:01:06.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "frmMain.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmMain.Designer.cs",
+              "RelativeDocumentMoniker": "frmMain.Designer.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmMain.Designer.cs",
+              "RelativeToolTip": "frmMain.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:00:58.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "frmBaoCaoHocKy.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmBaoCaoHocKy.Designer.cs",
+              "RelativeDocumentMoniker": "frmBaoCaoHocKy.Designer.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmBaoCaoHocKy.Designer.cs",
+              "RelativeToolTip": "frmBaoCaoHocKy.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:00:38.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "frmDangNhap.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmDangNhap.Designer.cs",
+              "RelativeDocumentMoniker": "frmDangNhap.Designer.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmDangNhap.Designer.cs",
+              "RelativeToolTip": "frmDangNhap.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:00:27.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "frmDangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmDangNhap.cs",
+              "RelativeDocumentMoniker": "frmDangNhap.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmDangNhap.cs [Design]",
+              "RelativeToolTip": "frmDangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:00:14.098Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T23:59:57.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "frmBaoCaoHocKy.cs",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmBaoCaoHocKy.cs",
+              "RelativeDocumentMoniker": "frmBaoCaoHocKy.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmBaoCaoHocKy.cs",
+              "RelativeToolTip": "frmBaoCaoHocKy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T23:59:15.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T23:59:52.516Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "frmBaoCaoHocKy.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\Education_Manager\\frmBaoCaoHocKy.cs",
+              "RelativeDocumentMoniker": "frmBaoCaoHocKy.cs",
+              "ToolTip": "D:\\Projects\\Education_Manager\\frmBaoCaoHocKy.cs [Design]",
+              "RelativeToolTip": "frmBaoCaoHocKy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T23:59:22.077Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "App.config",
               "DocumentMoniker": "D:\\Projects\\Education_Manager\\App.config",
               "RelativeDocumentMoniker": "App.config",
               "ToolTip": "D:\\Projects\\Education_Manager\\App.config",
               "RelativeToolTip": "App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-10-01T10:37:20.49Z",
               "EditorCaption": ""
