@@ -24,7 +24,7 @@ namespace Education_Manager
             this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thoátToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.quảnLýHọcSinhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quảnLýSinhViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýGiáoViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýLớpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýMônHọcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -35,6 +35,7 @@ namespace Education_Manager
             this.quảnLýKhoiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýKhenThưởngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýNgườiDùngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quảnLýThờiKhóaBiểuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thốngKêBáoCáoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thốngKêĐiểmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.báoCáoHọcKỳToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,6 +48,7 @@ namespace Education_Manager
             this.lblDateTime = new System.Windows.Forms.ToolStripStatusLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelSidebar = new System.Windows.Forms.Panel();
+            this.btnQuanLyThoiKhoaBieu = new System.Windows.Forms.Button();
             this.btnQuanLyNguoiDung = new System.Windows.Forms.Button();
             this.btnQuanLyKhenThuong = new System.Windows.Forms.Button();
             this.btnQuanLyCSVC = new System.Windows.Forms.Button();
@@ -61,8 +63,6 @@ namespace Education_Manager
             this.panelHeader = new System.Windows.Forms.Panel();
             this.lblAppName = new System.Windows.Forms.Label();
             this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
-            this.quảnLýThờiKhóaBiểuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnQuanLyThoiKhoaBieu = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.panelSidebar.SuspendLayout();
@@ -73,6 +73,7 @@ namespace Education_Manager
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.hệThốngToolStripMenuItem,
             this.quảnLýToolStripMenuItem,
@@ -80,7 +81,7 @@ namespace Education_Manager
             this.trợGiúpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1000, 29);
+            this.menuStrip1.Size = new System.Drawing.Size(1333, 36);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -94,27 +95,27 @@ namespace Education_Manager
             this.hệThốngToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.hệThốngToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.hệThốngToolStripMenuItem.Name = "hệThốngToolStripMenuItem";
-            this.hệThốngToolStripMenuItem.Size = new System.Drawing.Size(86, 25);
+            this.hệThốngToolStripMenuItem.Size = new System.Drawing.Size(108, 32);
             this.hệThốngToolStripMenuItem.Text = "Hệ thống";
             // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(187, 32);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
             this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
             // 
             // thoátToolStripMenuItem
             // 
             this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
+            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(187, 32);
             this.thoátToolStripMenuItem.Text = "Thoát";
             this.thoátToolStripMenuItem.Click += new System.EventHandler(this.thoátToolStripMenuItem_Click);
             // 
             // quảnLýToolStripMenuItem
             // 
             this.quảnLýToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.quảnLýHọcSinhToolStripMenuItem,
+            this.quảnLýSinhViênToolStripMenuItem,
             this.quảnLýGiáoViênToolStripMenuItem,
             this.quảnLýLớpToolStripMenuItem,
             this.quảnLýMônHọcToolStripMenuItem,
@@ -130,86 +131,93 @@ namespace Education_Manager
             this.quảnLýToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.quảnLýToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.quảnLýToolStripMenuItem.Name = "quảnLýToolStripMenuItem";
-            this.quảnLýToolStripMenuItem.Size = new System.Drawing.Size(76, 25);
+            this.quảnLýToolStripMenuItem.Size = new System.Drawing.Size(93, 32);
             this.quảnLýToolStripMenuItem.Text = "Quản lý";
             this.quảnLýToolStripMenuItem.Click += new System.EventHandler(this.quảnLýToolStripMenuItem_Click);
             // 
-            // quảnLýHọcSinhToolStripMenuItem
+            // quảnLýSinhViênToolStripMenuItem
             // 
-            this.quảnLýHọcSinhToolStripMenuItem.Name = "quảnLýHọcSinhToolStripMenuItem";
-            this.quảnLýHọcSinhToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
-            this.quảnLýHọcSinhToolStripMenuItem.Text = "Quản lý Học sinh";
-            this.quảnLýHọcSinhToolStripMenuItem.Click += new System.EventHandler(this.quảnLýHọcSinhToolStripMenuItem_Click);
+            this.quảnLýSinhViênToolStripMenuItem.Name = "quảnLýSinhViênToolStripMenuItem";
+            this.quảnLýSinhViênToolStripMenuItem.Size = new System.Drawing.Size(340, 32);
+            this.quảnLýSinhViênToolStripMenuItem.Text = "Quản lý Thông tin Sinh Viên";
+            this.quảnLýSinhViênToolStripMenuItem.Click += new System.EventHandler(this.quảnLýHọcSinhToolStripMenuItem_Click);
             // 
             // quảnLýGiáoViênToolStripMenuItem
             // 
             this.quảnLýGiáoViênToolStripMenuItem.Name = "quảnLýGiáoViênToolStripMenuItem";
-            this.quảnLýGiáoViênToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
+            this.quảnLýGiáoViênToolStripMenuItem.Size = new System.Drawing.Size(300, 32);
             this.quảnLýGiáoViênToolStripMenuItem.Text = "Quản lý Giáo viên";
             this.quảnLýGiáoViênToolStripMenuItem.Click += new System.EventHandler(this.quảnLýGiáoViênToolStripMenuItem_Click);
             // 
             // quảnLýLớpToolStripMenuItem
             // 
             this.quảnLýLớpToolStripMenuItem.Name = "quảnLýLớpToolStripMenuItem";
-            this.quảnLýLớpToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
+            this.quảnLýLớpToolStripMenuItem.Size = new System.Drawing.Size(300, 32);
             this.quảnLýLớpToolStripMenuItem.Text = "Quản lý Lớp";
             this.quảnLýLớpToolStripMenuItem.Click += new System.EventHandler(this.quảnLýLớpToolStripMenuItem_Click);
             // 
             // quảnLýMônHọcToolStripMenuItem
             // 
             this.quảnLýMônHọcToolStripMenuItem.Name = "quảnLýMônHọcToolStripMenuItem";
-            this.quảnLýMônHọcToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
+            this.quảnLýMônHọcToolStripMenuItem.Size = new System.Drawing.Size(300, 32);
             this.quảnLýMônHọcToolStripMenuItem.Text = "Quản lý Môn học";
             this.quảnLýMônHọcToolStripMenuItem.Click += new System.EventHandler(this.quảnLýMônHọcToolStripMenuItem_Click);
             // 
             // quảnLýĐiểmToolStripMenuItem
             // 
             this.quảnLýĐiểmToolStripMenuItem.Name = "quảnLýĐiểmToolStripMenuItem";
-            this.quảnLýĐiểmToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
-            this.quảnLýĐiểmToolStripMenuItem.Text = "Quản lý Điểm";
+            this.quảnLýĐiểmToolStripMenuItem.Size = new System.Drawing.Size(340, 32);
+            this.quảnLýĐiểmToolStripMenuItem.Text = "Quản lý Kết quả học tập";
             this.quảnLýĐiểmToolStripMenuItem.Click += new System.EventHandler(this.quảnLýĐiểmToolStripMenuItem_Click);
             // 
             // quảnLýPhânCôngToolStripMenuItem
             // 
             this.quảnLýPhânCôngToolStripMenuItem.Name = "quảnLýPhânCôngToolStripMenuItem";
-            this.quảnLýPhânCôngToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
+            this.quảnLýPhânCôngToolStripMenuItem.Size = new System.Drawing.Size(300, 32);
             this.quảnLýPhânCôngToolStripMenuItem.Text = "Quản lý Phân công";
             this.quảnLýPhânCôngToolStripMenuItem.Click += new System.EventHandler(this.quảnLýPhânCôngToolStripMenuItem_Click);
             // 
             // quảnLýLoạiCSVCToolStripMenuItem
             // 
             this.quảnLýLoạiCSVCToolStripMenuItem.Name = "quảnLýLoạiCSVCToolStripMenuItem";
-            this.quảnLýLoạiCSVCToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
+            this.quảnLýLoạiCSVCToolStripMenuItem.Size = new System.Drawing.Size(300, 32);
             this.quảnLýLoạiCSVCToolStripMenuItem.Text = "Quản lý loại CSVC";
             this.quảnLýLoạiCSVCToolStripMenuItem.Click += new System.EventHandler(this.quảnLýLoạiCSVCToolStripMenuItem_Click);
             // 
             // quảnLýCSVCToolStripMenuItem
             // 
             this.quảnLýCSVCToolStripMenuItem.Name = "quảnLýCSVCToolStripMenuItem";
-            this.quảnLýCSVCToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
+            this.quảnLýCSVCToolStripMenuItem.Size = new System.Drawing.Size(300, 32);
             this.quảnLýCSVCToolStripMenuItem.Text = "Quản lý Khối";
             this.quảnLýCSVCToolStripMenuItem.Click += new System.EventHandler(this.quảnLýCSVCToolStripMenuItem_Click_1);
             // 
             // quảnLýKhoiToolStripMenuItem
             // 
             this.quảnLýKhoiToolStripMenuItem.Name = "quảnLýKhoiToolStripMenuItem";
-            this.quảnLýKhoiToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
+            this.quảnLýKhoiToolStripMenuItem.Size = new System.Drawing.Size(300, 32);
             this.quảnLýKhoiToolStripMenuItem.Text = "Quản lý CSVC";
             this.quảnLýKhoiToolStripMenuItem.Click += new System.EventHandler(this.quảnLýCSVCToolStripMenuItem_Click);
             // 
             // quảnLýKhenThưởngToolStripMenuItem
             // 
             this.quảnLýKhenThưởngToolStripMenuItem.Name = "quảnLýKhenThưởngToolStripMenuItem";
-            this.quảnLýKhenThưởngToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
+            this.quảnLýKhenThưởngToolStripMenuItem.Size = new System.Drawing.Size(300, 32);
             this.quảnLýKhenThưởngToolStripMenuItem.Text = "Quản lý Khen thưởng";
             this.quảnLýKhenThưởngToolStripMenuItem.Click += new System.EventHandler(this.quảnLýKhenThưởngToolStripMenuItem_Click);
             // 
             // quảnLýNgườiDùngToolStripMenuItem
             // 
             this.quảnLýNgườiDùngToolStripMenuItem.Name = "quảnLýNgườiDùngToolStripMenuItem";
-            this.quảnLýNgườiDùngToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
+            this.quảnLýNgườiDùngToolStripMenuItem.Size = new System.Drawing.Size(300, 32);
             this.quảnLýNgườiDùngToolStripMenuItem.Text = "Quản lý Người dùng";
             this.quảnLýNgườiDùngToolStripMenuItem.Click += new System.EventHandler(this.quảnLýNgườiDùngToolStripMenuItem_Click);
+            // 
+            // quảnLýThờiKhóaBiểuToolStripMenuItem
+            // 
+            this.quảnLýThờiKhóaBiểuToolStripMenuItem.Name = "quảnLýThờiKhóaBiểuToolStripMenuItem";
+            this.quảnLýThờiKhóaBiểuToolStripMenuItem.Size = new System.Drawing.Size(300, 32);
+            this.quảnLýThờiKhóaBiểuToolStripMenuItem.Text = "Quản lý Thời Khóa Biểu";
+            this.quảnLýThờiKhóaBiểuToolStripMenuItem.Click += new System.EventHandler(this.quảnLýThờiKhóaBiểuToolStripMenuItem_Click);
             // 
             // thốngKêBáoCáoToolStripMenuItem
             // 
@@ -220,20 +228,20 @@ namespace Education_Manager
             this.thốngKêBáoCáoToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.thốngKêBáoCáoToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.thốngKêBáoCáoToolStripMenuItem.Name = "thốngKêBáoCáoToolStripMenuItem";
-            this.thốngKêBáoCáoToolStripMenuItem.Size = new System.Drawing.Size(144, 25);
+            this.thốngKêBáoCáoToolStripMenuItem.Size = new System.Drawing.Size(182, 32);
             this.thốngKêBáoCáoToolStripMenuItem.Text = "Thống kê báo cáo";
             // 
             // thốngKêĐiểmToolStripMenuItem
             // 
             this.thốngKêĐiểmToolStripMenuItem.Name = "thốngKêĐiểmToolStripMenuItem";
-            this.thốngKêĐiểmToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
+            this.thốngKêĐiểmToolStripMenuItem.Size = new System.Drawing.Size(229, 32);
             this.thốngKêĐiểmToolStripMenuItem.Text = "Thống kê điểm";
             this.thốngKêĐiểmToolStripMenuItem.Click += new System.EventHandler(this.thốngKêĐiểmToolStripMenuItem_Click);
             // 
             // báoCáoHọcKỳToolStripMenuItem
             // 
             this.báoCáoHọcKỳToolStripMenuItem.Name = "báoCáoHọcKỳToolStripMenuItem";
-            this.báoCáoHọcKỳToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
+            this.báoCáoHọcKỳToolStripMenuItem.Size = new System.Drawing.Size(229, 32);
             this.báoCáoHọcKỳToolStripMenuItem.Text = "Báo cáo học kỳ";
             this.báoCáoHọcKỳToolStripMenuItem.Click += new System.EventHandler(this.báoCáoHọcKỳToolStripMenuItem_Click);
             // 
@@ -246,31 +254,33 @@ namespace Education_Manager
             this.trợGiúpToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.trợGiúpToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.trợGiúpToolStripMenuItem.Name = "trợGiúpToolStripMenuItem";
-            this.trợGiúpToolStripMenuItem.Size = new System.Drawing.Size(80, 25);
+            this.trợGiúpToolStripMenuItem.Size = new System.Drawing.Size(98, 32);
             this.trợGiúpToolStripMenuItem.Text = "Trợ giúp";
             // 
             // hướngDẫnToolStripMenuItem
             // 
             this.hướngDẫnToolStripMenuItem.Name = "hướngDẫnToolStripMenuItem";
-            this.hướngDẫnToolStripMenuItem.Size = new System.Drawing.Size(158, 26);
+            this.hướngDẫnToolStripMenuItem.Size = new System.Drawing.Size(197, 32);
             this.hướngDẫnToolStripMenuItem.Text = "Hướng dẫn";
             // 
             // thôngTinToolStripMenuItem
             // 
             this.thôngTinToolStripMenuItem.Name = "thôngTinToolStripMenuItem";
-            this.thôngTinToolStripMenuItem.Size = new System.Drawing.Size(158, 26);
+            this.thôngTinToolStripMenuItem.Size = new System.Drawing.Size(197, 32);
             this.thôngTinToolStripMenuItem.Text = "Thông tin";
             // 
             // statusStrip1
             // 
             this.statusStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblWelcome,
             this.toolStripStatusLabel1,
             this.lblDateTime});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 578);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 716);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1000, 22);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(1333, 22);
             this.statusStrip1.TabIndex = 3;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -278,20 +288,20 @@ namespace Education_Manager
             // 
             this.lblWelcome.ForeColor = System.Drawing.Color.White;
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(0, 17);
+            this.lblWelcome.Size = new System.Drawing.Size(0, 16);
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.ForeColor = System.Drawing.Color.White;
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(985, 17);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(1313, 16);
             this.toolStripStatusLabel1.Spring = true;
             // 
             // lblDateTime
             // 
             this.lblDateTime.ForeColor = System.Drawing.Color.White;
             this.lblDateTime.Name = "lblDateTime";
-            this.lblDateTime.Size = new System.Drawing.Size(0, 17);
+            this.lblDateTime.Size = new System.Drawing.Size(0, 16);
             // 
             // timer1
             // 
@@ -314,11 +324,32 @@ namespace Education_Manager
             this.panelSidebar.Controls.Add(this.btnQuanLyGiaoVien);
             this.panelSidebar.Controls.Add(this.btnQuanLyHocSinh);
             this.panelSidebar.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelSidebar.Location = new System.Drawing.Point(0, 29);
+            this.panelSidebar.Location = new System.Drawing.Point(0, 36);
+            this.panelSidebar.Margin = new System.Windows.Forms.Padding(4);
             this.panelSidebar.Name = "panelSidebar";
-            this.panelSidebar.Size = new System.Drawing.Size(220, 549);
+            this.panelSidebar.Size = new System.Drawing.Size(293, 680);
             this.panelSidebar.TabIndex = 4;
             this.panelSidebar.Paint += new System.Windows.Forms.PaintEventHandler(this.panelSidebar_Paint);
+            // 
+            // btnQuanLyThoiKhoaBieu
+            // 
+            this.btnQuanLyThoiKhoaBieu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnQuanLyThoiKhoaBieu.FlatAppearance.BorderSize = 0;
+            this.btnQuanLyThoiKhoaBieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQuanLyThoiKhoaBieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuanLyThoiKhoaBieu.ForeColor = System.Drawing.Color.White;
+            this.btnQuanLyThoiKhoaBieu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnQuanLyThoiKhoaBieu.Location = new System.Drawing.Point(0, 605);
+            this.btnQuanLyThoiKhoaBieu.Margin = new System.Windows.Forms.Padding(4);
+            this.btnQuanLyThoiKhoaBieu.Name = "btnQuanLyThoiKhoaBieu";
+            this.btnQuanLyThoiKhoaBieu.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnQuanLyThoiKhoaBieu.Size = new System.Drawing.Size(293, 55);
+            this.btnQuanLyThoiKhoaBieu.TabIndex = 11;
+            this.btnQuanLyThoiKhoaBieu.Text = "  Quản lý Thời Khóa Biểu";
+            this.btnQuanLyThoiKhoaBieu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnQuanLyThoiKhoaBieu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnQuanLyThoiKhoaBieu.UseVisualStyleBackColor = true;
+            this.btnQuanLyThoiKhoaBieu.Click += new System.EventHandler(this.btnQuanLyThoiKhoaBieu_Click);
             // 
             // btnQuanLyNguoiDung
             // 
@@ -328,10 +359,11 @@ namespace Education_Manager
             this.btnQuanLyNguoiDung.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyNguoiDung.ForeColor = System.Drawing.Color.White;
             this.btnQuanLyNguoiDung.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuanLyNguoiDung.Location = new System.Drawing.Point(0, 450);
+            this.btnQuanLyNguoiDung.Location = new System.Drawing.Point(0, 550);
+            this.btnQuanLyNguoiDung.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuanLyNguoiDung.Name = "btnQuanLyNguoiDung";
-            this.btnQuanLyNguoiDung.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnQuanLyNguoiDung.Size = new System.Drawing.Size(220, 45);
+            this.btnQuanLyNguoiDung.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnQuanLyNguoiDung.Size = new System.Drawing.Size(293, 55);
             this.btnQuanLyNguoiDung.TabIndex = 10;
             this.btnQuanLyNguoiDung.Text = "  Quản lý Người dùng";
             this.btnQuanLyNguoiDung.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -347,10 +379,11 @@ namespace Education_Manager
             this.btnQuanLyKhenThuong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyKhenThuong.ForeColor = System.Drawing.Color.White;
             this.btnQuanLyKhenThuong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuanLyKhenThuong.Location = new System.Drawing.Point(0, 405);
+            this.btnQuanLyKhenThuong.Location = new System.Drawing.Point(0, 495);
+            this.btnQuanLyKhenThuong.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuanLyKhenThuong.Name = "btnQuanLyKhenThuong";
-            this.btnQuanLyKhenThuong.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnQuanLyKhenThuong.Size = new System.Drawing.Size(220, 45);
+            this.btnQuanLyKhenThuong.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnQuanLyKhenThuong.Size = new System.Drawing.Size(293, 55);
             this.btnQuanLyKhenThuong.TabIndex = 9;
             this.btnQuanLyKhenThuong.Text = "  Quản lý Khen thưởng";
             this.btnQuanLyKhenThuong.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -366,10 +399,11 @@ namespace Education_Manager
             this.btnQuanLyCSVC.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyCSVC.ForeColor = System.Drawing.Color.White;
             this.btnQuanLyCSVC.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuanLyCSVC.Location = new System.Drawing.Point(0, 360);
+            this.btnQuanLyCSVC.Location = new System.Drawing.Point(0, 440);
+            this.btnQuanLyCSVC.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuanLyCSVC.Name = "btnQuanLyCSVC";
-            this.btnQuanLyCSVC.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnQuanLyCSVC.Size = new System.Drawing.Size(220, 45);
+            this.btnQuanLyCSVC.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnQuanLyCSVC.Size = new System.Drawing.Size(293, 55);
             this.btnQuanLyCSVC.TabIndex = 8;
             this.btnQuanLyCSVC.Text = "  Quản lý CSVC";
             this.btnQuanLyCSVC.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -385,10 +419,11 @@ namespace Education_Manager
             this.btnQuanLyKhoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyKhoi.ForeColor = System.Drawing.Color.White;
             this.btnQuanLyKhoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuanLyKhoi.Location = new System.Drawing.Point(0, 315);
+            this.btnQuanLyKhoi.Location = new System.Drawing.Point(0, 385);
+            this.btnQuanLyKhoi.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuanLyKhoi.Name = "btnQuanLyKhoi";
-            this.btnQuanLyKhoi.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnQuanLyKhoi.Size = new System.Drawing.Size(220, 45);
+            this.btnQuanLyKhoi.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnQuanLyKhoi.Size = new System.Drawing.Size(293, 55);
             this.btnQuanLyKhoi.TabIndex = 7;
             this.btnQuanLyKhoi.Text = "  Quản lý Khối";
             this.btnQuanLyKhoi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -404,10 +439,11 @@ namespace Education_Manager
             this.btnQuanLyLoaiCSVC.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyLoaiCSVC.ForeColor = System.Drawing.Color.White;
             this.btnQuanLyLoaiCSVC.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuanLyLoaiCSVC.Location = new System.Drawing.Point(0, 270);
+            this.btnQuanLyLoaiCSVC.Location = new System.Drawing.Point(0, 330);
+            this.btnQuanLyLoaiCSVC.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuanLyLoaiCSVC.Name = "btnQuanLyLoaiCSVC";
-            this.btnQuanLyLoaiCSVC.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnQuanLyLoaiCSVC.Size = new System.Drawing.Size(220, 45);
+            this.btnQuanLyLoaiCSVC.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnQuanLyLoaiCSVC.Size = new System.Drawing.Size(293, 55);
             this.btnQuanLyLoaiCSVC.TabIndex = 6;
             this.btnQuanLyLoaiCSVC.Text = "  Quản lý Loại CSVC";
             this.btnQuanLyLoaiCSVC.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -423,10 +459,11 @@ namespace Education_Manager
             this.btnQuanLyPhanCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyPhanCong.ForeColor = System.Drawing.Color.White;
             this.btnQuanLyPhanCong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuanLyPhanCong.Location = new System.Drawing.Point(0, 225);
+            this.btnQuanLyPhanCong.Location = new System.Drawing.Point(0, 275);
+            this.btnQuanLyPhanCong.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuanLyPhanCong.Name = "btnQuanLyPhanCong";
-            this.btnQuanLyPhanCong.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnQuanLyPhanCong.Size = new System.Drawing.Size(220, 45);
+            this.btnQuanLyPhanCong.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnQuanLyPhanCong.Size = new System.Drawing.Size(293, 55);
             this.btnQuanLyPhanCong.TabIndex = 5;
             this.btnQuanLyPhanCong.Text = "  Quản lý Phân công";
             this.btnQuanLyPhanCong.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -442,12 +479,13 @@ namespace Education_Manager
             this.btnQuanLyDiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyDiem.ForeColor = System.Drawing.Color.White;
             this.btnQuanLyDiem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuanLyDiem.Location = new System.Drawing.Point(0, 180);
+            this.btnQuanLyDiem.Location = new System.Drawing.Point(0, 220);
+            this.btnQuanLyDiem.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuanLyDiem.Name = "btnQuanLyDiem";
-            this.btnQuanLyDiem.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnQuanLyDiem.Size = new System.Drawing.Size(220, 45);
+            this.btnQuanLyDiem.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnQuanLyDiem.Size = new System.Drawing.Size(293, 55);
             this.btnQuanLyDiem.TabIndex = 4;
-            this.btnQuanLyDiem.Text = "  Quản lý Điểm";
+            this.btnQuanLyDiem.Text = "  Quản lý Kết quả học tập";
             this.btnQuanLyDiem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQuanLyDiem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnQuanLyDiem.UseVisualStyleBackColor = true;
@@ -461,10 +499,11 @@ namespace Education_Manager
             this.btnQuanLyMonHoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyMonHoc.ForeColor = System.Drawing.Color.White;
             this.btnQuanLyMonHoc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuanLyMonHoc.Location = new System.Drawing.Point(0, 135);
+            this.btnQuanLyMonHoc.Location = new System.Drawing.Point(0, 165);
+            this.btnQuanLyMonHoc.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuanLyMonHoc.Name = "btnQuanLyMonHoc";
-            this.btnQuanLyMonHoc.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnQuanLyMonHoc.Size = new System.Drawing.Size(220, 45);
+            this.btnQuanLyMonHoc.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnQuanLyMonHoc.Size = new System.Drawing.Size(293, 55);
             this.btnQuanLyMonHoc.TabIndex = 3;
             this.btnQuanLyMonHoc.Text = "  Quản lý Môn học";
             this.btnQuanLyMonHoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -480,10 +519,11 @@ namespace Education_Manager
             this.btnQuanLyLop.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyLop.ForeColor = System.Drawing.Color.White;
             this.btnQuanLyLop.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuanLyLop.Location = new System.Drawing.Point(0, 90);
+            this.btnQuanLyLop.Location = new System.Drawing.Point(0, 110);
+            this.btnQuanLyLop.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuanLyLop.Name = "btnQuanLyLop";
-            this.btnQuanLyLop.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnQuanLyLop.Size = new System.Drawing.Size(220, 45);
+            this.btnQuanLyLop.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnQuanLyLop.Size = new System.Drawing.Size(293, 55);
             this.btnQuanLyLop.TabIndex = 2;
             this.btnQuanLyLop.Text = "  Quản lý Lớp";
             this.btnQuanLyLop.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -499,10 +539,11 @@ namespace Education_Manager
             this.btnQuanLyGiaoVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyGiaoVien.ForeColor = System.Drawing.Color.White;
             this.btnQuanLyGiaoVien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuanLyGiaoVien.Location = new System.Drawing.Point(0, 45);
+            this.btnQuanLyGiaoVien.Location = new System.Drawing.Point(0, 55);
+            this.btnQuanLyGiaoVien.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuanLyGiaoVien.Name = "btnQuanLyGiaoVien";
-            this.btnQuanLyGiaoVien.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnQuanLyGiaoVien.Size = new System.Drawing.Size(220, 45);
+            this.btnQuanLyGiaoVien.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnQuanLyGiaoVien.Size = new System.Drawing.Size(293, 55);
             this.btnQuanLyGiaoVien.TabIndex = 1;
             this.btnQuanLyGiaoVien.Text = "  Quản lý Giáo viên";
             this.btnQuanLyGiaoVien.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -519,11 +560,12 @@ namespace Education_Manager
             this.btnQuanLyHocSinh.ForeColor = System.Drawing.Color.White;
             this.btnQuanLyHocSinh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQuanLyHocSinh.Location = new System.Drawing.Point(0, 0);
+            this.btnQuanLyHocSinh.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuanLyHocSinh.Name = "btnQuanLyHocSinh";
-            this.btnQuanLyHocSinh.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnQuanLyHocSinh.Size = new System.Drawing.Size(220, 45);
+            this.btnQuanLyHocSinh.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnQuanLyHocSinh.Size = new System.Drawing.Size(293, 55);
             this.btnQuanLyHocSinh.TabIndex = 0;
-            this.btnQuanLyHocSinh.Text = "  Quản lý Học sinh";
+            this.btnQuanLyHocSinh.Text = "  Quản lý Thông tin Sinh Viên";
             this.btnQuanLyHocSinh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQuanLyHocSinh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnQuanLyHocSinh.UseVisualStyleBackColor = true;
@@ -535,9 +577,10 @@ namespace Education_Manager
             this.panelHeader.Controls.Add(this.lblAppName);
             this.panelHeader.Controls.Add(this.pictureBoxLogo);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelHeader.Location = new System.Drawing.Point(220, 29);
+            this.panelHeader.Location = new System.Drawing.Point(293, 36);
+            this.panelHeader.Margin = new System.Windows.Forms.Padding(4);
             this.panelHeader.Name = "panelHeader";
-            this.panelHeader.Size = new System.Drawing.Size(780, 100);
+            this.panelHeader.Size = new System.Drawing.Size(1040, 123);
             this.panelHeader.TabIndex = 5;
             // 
             // lblAppName
@@ -545,53 +588,29 @@ namespace Education_Manager
             this.lblAppName.AutoSize = true;
             this.lblAppName.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAppName.ForeColor = System.Drawing.Color.White;
-            this.lblAppName.Location = new System.Drawing.Point(120, 35);
+            this.lblAppName.Location = new System.Drawing.Point(160, 43);
+            this.lblAppName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAppName.Name = "lblAppName";
-            this.lblAppName.Size = new System.Drawing.Size(506, 31);
+            this.lblAppName.Size = new System.Drawing.Size(628, 39);
             this.lblAppName.TabIndex = 1;
             this.lblAppName.Text = "PHẦN MỀM QUẢN LÝ TRƯỜNG HỌC";
             // 
             // pictureBoxLogo
             // 
-            this.pictureBoxLogo.Location = new System.Drawing.Point(20, 15);
+            this.pictureBoxLogo.Location = new System.Drawing.Point(27, 18);
+            this.pictureBoxLogo.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(80, 70);
+            this.pictureBoxLogo.Size = new System.Drawing.Size(107, 86);
             this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxLogo.TabIndex = 0;
             this.pictureBoxLogo.TabStop = false;
             // 
-            // quảnLýThờiKhóaBiểuToolStripMenuItem
-            // 
-            this.quảnLýThờiKhóaBiểuToolStripMenuItem.Name = "quảnLýThờiKhóaBiểuToolStripMenuItem";
-            this.quảnLýThờiKhóaBiểuToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
-            this.quảnLýThờiKhóaBiểuToolStripMenuItem.Text = "Quản lý Thời Khóa Biểu";
-            this.quảnLýThờiKhóaBiểuToolStripMenuItem.Click += new System.EventHandler(this.quảnLýThờiKhóaBiểuToolStripMenuItem_Click);
-            // 
-            // btnQuanLyThoiKhoaBieu
-            // 
-            this.btnQuanLyThoiKhoaBieu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnQuanLyThoiKhoaBieu.FlatAppearance.BorderSize = 0;
-            this.btnQuanLyThoiKhoaBieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQuanLyThoiKhoaBieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQuanLyThoiKhoaBieu.ForeColor = System.Drawing.Color.White;
-            this.btnQuanLyThoiKhoaBieu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuanLyThoiKhoaBieu.Location = new System.Drawing.Point(0, 495);
-            this.btnQuanLyThoiKhoaBieu.Name = "btnQuanLyThoiKhoaBieu";
-            this.btnQuanLyThoiKhoaBieu.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnQuanLyThoiKhoaBieu.Size = new System.Drawing.Size(220, 45);
-            this.btnQuanLyThoiKhoaBieu.TabIndex = 11;
-            this.btnQuanLyThoiKhoaBieu.Text = "  Quản lý Thời Khóa Biểu";
-            this.btnQuanLyThoiKhoaBieu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuanLyThoiKhoaBieu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnQuanLyThoiKhoaBieu.UseVisualStyleBackColor = true;
-            this.btnQuanLyThoiKhoaBieu.Click += new System.EventHandler(this.btnQuanLyThoiKhoaBieu_Click);
-            // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1000, 600);
+            this.ClientSize = new System.Drawing.Size(1333, 738);
             this.ControlBox = false;
             this.Controls.Add(this.panelHeader);
             this.Controls.Add(this.panelSidebar);
@@ -599,6 +618,7 @@ namespace Education_Manager
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Phần mềm quản lý trường học";
@@ -622,7 +642,7 @@ namespace Education_Manager
         private System.Windows.Forms.ToolStripMenuItem đăngXuấtToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thoátToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quảnLýToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem quảnLýHọcSinhToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem quảnLýSinhViênToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quảnLýGiáoViênToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quảnLýLớpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quảnLýMônHọcToolStripMenuItem;

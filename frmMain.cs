@@ -36,7 +36,7 @@ namespace Education_Manager
             }
             else if (userRole == "HocSinh")
             {
-                quảnLýHọcSinhToolStripMenuItem.Enabled = false;
+                quảnLýSinhViênToolStripMenuItem.Enabled = false;
                 quảnLýGiáoViênToolStripMenuItem.Enabled = false;
                 quảnLýLớpToolStripMenuItem.Enabled = false;
                 quảnLýMônHọcToolStripMenuItem.Enabled = false;
@@ -73,7 +73,7 @@ namespace Education_Manager
 
         private void quảnLýĐiểmToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new frmQuanLyDiem());
+            OpenChildForm(new frmQuanLyKQHT());
         }
 
         private void quảnLýPhânCôngToolStripMenuItem_Click(object sender, EventArgs e)

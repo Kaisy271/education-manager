@@ -51,17 +51,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatabaseHelper.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="FormDangKyHoc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormDangKyHoc.Designer.cs">
+      <DependentUpon>FormDangKyHoc.cs</DependentUpon>
     </Compile>
     <Compile Include="frmBaoCaoHocKy.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmBaoCaoHocKy.Designer.cs">
       <DependentUpon>frmBaoCaoHocKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDangKyHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangKyHoc.Designer.cs">
+      <DependentUpon>frmDangKyHoc.cs</DependentUpon>
     </Compile>
     <Compile Include="frmDangNhap.cs">
       <SubType>Form</SubType>
@@ -87,11 +93,11 @@
     <Compile Include="frmQuanLyCoSoVatChat.Designer.cs">
       <DependentUpon>frmQuanLyCoSoVatChat.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmQuanLyDiem.cs">
+    <Compile Include="frmQuanLyKQHT.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmQuanLyDiem.Designer.cs">
-      <DependentUpon>frmQuanLyDiem.cs</DependentUpon>
+    <Compile Include="frmQuanLyKQHT.Designer.cs">
+      <DependentUpon>frmQuanLyKQHT.cs</DependentUpon>
     </Compile>
     <Compile Include="frmQuanLyGiaoVien.cs">
       <SubType>Form</SubType>
@@ -99,11 +105,11 @@
     <Compile Include="frmQuanLyGiaoVien.Designer.cs">
       <DependentUpon>frmQuanLyGiaoVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmQuanLyHocSinh.cs">
+    <Compile Include="frmQuanLySinhVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmQuanLyHocSinh.Designer.cs">
-      <DependentUpon>frmQuanLyHocSinh.cs</DependentUpon>
+    <Compile Include="frmQuanLySinhVien.Designer.cs">
+      <DependentUpon>frmQuanLySinhVien.cs</DependentUpon>
     </Compile>
     <Compile Include="frmQuanLyKhenThuong.cs">
       <SubType>Form</SubType>
@@ -161,8 +167,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormDangKyHoc.resx">
+      <DependentUpon>FormDangKyHoc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmBaoCaoHocKy.resx">
       <DependentUpon>frmBaoCaoHocKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDangKyHoc.resx">
+      <DependentUpon>frmDangKyHoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
@@ -176,8 +188,11 @@
     <EmbeddedResource Include="frmQuanLyGiaoVien.resx">
       <DependentUpon>frmQuanLyGiaoVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmQuanLyHocSinh.resx">
-      <DependentUpon>frmQuanLyHocSinh.cs</DependentUpon>
+    <EmbeddedResource Include="frmQuanLyKQHT.resx">
+      <DependentUpon>frmQuanLyKQHT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLySinhVien.resx">
+      <DependentUpon>frmQuanLySinhVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmQuanLyKhoi.resx">
       <DependentUpon>frmQuanLyKhoi.cs</DependentUpon>

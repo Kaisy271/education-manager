@@ -11,12 +11,17 @@ namespace Education_Manager
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        public static bool SkipLogin = true; // 🔹 đổi sang false để bật lại login
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmDangNhap());
+
+            if (SkipLogin)
+                Application.Run(new frmMain("admin")); // Chạy thẳng form chính
+            else
+                Application.Run(new frmDangNhap()); // Chạy form đăng nhập
         }
     }
 }

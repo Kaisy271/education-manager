@@ -3,12 +3,14 @@ using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
 
-
 namespace Education_Manager
 {
     public class DatabaseHelper
     {
-        private static string connectionString = ConfigurationManager.ConnectionStrings["QLTruongHocConnectionString"].ConnectionString;
+        // Khởi tạo connectionString tĩnh. Chỉ cần 1 chuỗi này trỏ đến Server.
+        private static readonly string connectionString = ConfigurationManager.ConnectionStrings["QLTruongHocConnectionString"].ConnectionString;
+
+        // Phương thức này không cần thay đổi.
         public static SqlConnection GetConnection()
         {
             return new SqlConnection(connectionString);
@@ -30,42 +32,55 @@ namespace Education_Manager
             catch (Exception ex)
             {
                 Console.WriteLine($"Lỗi ExecuteQuery: {ex.Message}");
-                return null; // Trả về null nếu có lỗi
+                // Nếu là ứng dụng WinForms, bạn nên dùng MessageBox.Show(ex.Message);
+                return null;
             }
-            return dt; // Trả về DataTable rỗng nếu không có dữ liệu
+            return dt;
         }
 
+        // Tối ưu hóa: Thêm khối try-catch để bắt lỗi kết nối/thực thi SQL.
         public static int ExecuteNonQuery(string query, SqlParameter[] parameters = null)
         {
             int result = 0;
-            using (SqlConnection conn = GetConnection())
+            try
             {
-                SqlCommand cmd = new SqlCommand(query, conn);
-                if (parameters != null)
+                using (SqlConnection conn = GetConnection())
                 {
-                    cmd.Parameters.AddRange(parameters);
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    if (parameters != null) cmd.Parameters.AddRange(parameters);
+                    conn.Open();
+                    result = cmd.ExecuteNonQuery();
                 }
-                conn.Open();
-                result = cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Lỗi ExecuteNonQuery: {ex.Message}");
+                // Ném lại lỗi để code gọi có thể thông báo cho người dùng
+                throw;
             }
             return result;
         }
+
+        // Tối ưu hóa: Thêm khối try-catch để bắt lỗi kết nối/thực thi SQL.
         public static object ExecuteScalar(string query, SqlParameter[] parameters = null)
         {
             object result = null;
-            using (SqlConnection conn = GetConnection())
+            try
             {
-                SqlCommand cmd = new SqlCommand(query, conn);
-                if (parameters != null)
+                using (SqlConnection conn = GetConnection())
                 {
-
-                    cmd.Parameters.AddRange(parameters);
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    if (parameters != null) cmd.Parameters.AddRange(parameters);
+                    conn.Open();
+                    result = cmd.ExecuteScalar();
                 }
-                conn.Open();
-                result = cmd.ExecuteScalar();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Lỗi ExecuteScalar: {ex.Message}");
+                throw;
             }
             return result;
         }
     }
-
 }

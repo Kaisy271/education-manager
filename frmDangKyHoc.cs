@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Education_Manager
 {
-    public partial class Form1: Form
+    public partial class frmDangKyHoc : Form
     {
-        public Form1()
+        public frmDangKyHoc()
         {
             InitializeComponent();
         }
