@@ -189,31 +189,51 @@ namespace Education_Manager
                 using (SqlConnection conn = DatabaseHelper.GetConnection())
                 {
                     conn.Open();
+                    SqlTransaction tran = conn.BeginTransaction();
 
-         
-                    // Thêm sinh viên
-                    string insertQuery = @"
+                    try
+                    {
+                        // 🔹 1. Tạo id_nguoi_dung mới (tự động tăng ND001, ND002, ...)
+                        string newUserId = GenerateNewId(conn, tran, "Nguoi_dung", "id_nguoi_dung", "ND");
+
+                        // 🔹 2. Tạo tài khoản đăng nhập tương ứng (ví dụ tài khoản là mã SV, mật khẩu mặc định "123")
+                        string insertUser = @"
+                    INSERT INTO Nguoi_dung (id_nguoi_dung, tai_khoan, mat_khau)
+                    VALUES (@id_nguoi_dung, @tai_khoan, @mat_khau)";
+                        SqlCommand cmdUser = new SqlCommand(insertUser, conn, tran);
+                        cmdUser.Parameters.AddWithValue("@id_nguoi_dung", newUserId);
+                        cmdUser.Parameters.AddWithValue("@tai_khoan", txtMaSV.Text.Trim());
+                        cmdUser.Parameters.AddWithValue("@mat_khau", "123"); // Mật khẩu mặc định
+                        cmdUser.ExecuteNonQuery();
+
+                        // 🔹 3. Thêm sinh viên (liên kết với id_nguoi_dung vừa tạo)
+                        string insertSV = @"
                     INSERT INTO Sinh_vien
                     (id_sinh_vien, id_nguoi_dung, ho_ten, ngay_sinh, gioi_tinh, dia_chi, email, sdt, trang_thai, khoa_hoc, id_lop)
                     VALUES (@id_sinh_vien, @id_nguoi_dung, @ho_ten, @ngay_sinh, @gioi_tinh, @dia_chi, @email, @sdt, @trang_thai, @khoa_hoc, @id_lop)";
+                        SqlCommand cmdSV = new SqlCommand(insertSV, conn, tran);
+                        cmdSV.Parameters.AddWithValue("@id_sinh_vien", txtMaSV.Text.Trim());
+                        cmdSV.Parameters.AddWithValue("@id_nguoi_dung", newUserId);
+                        cmdSV.Parameters.AddWithValue("@ho_ten", txtHoTen.Text.Trim());
+                        cmdSV.Parameters.AddWithValue("@ngay_sinh", dtpNgaySinh.Value);
+                        cmdSV.Parameters.AddWithValue("@gioi_tinh", rbNam.Checked ? 1 : 0);
+                        cmdSV.Parameters.AddWithValue("@dia_chi", txtDiaChi.Text.Trim());
+                        cmdSV.Parameters.AddWithValue("@email", txtEmail.Text.Trim());
+                        cmdSV.Parameters.AddWithValue("@sdt", txtSDT.Text.Trim());
+                        cmdSV.Parameters.AddWithValue("@trang_thai", cbTrangThai.Text.Trim());
+                        cmdSV.Parameters.AddWithValue("@khoa_hoc", DBNull.Value);
+                        cmdSV.Parameters.AddWithValue("@id_lop", cbLop.SelectedValue);
+                        cmdSV.ExecuteNonQuery();
 
-                    SqlCommand cmd = new SqlCommand(insertQuery, conn);
-                    cmd.Parameters.AddWithValue("@id_sinh_vien", txtMaSV.Text.Trim());
-               
-                    cmd.Parameters.AddWithValue("@ho_ten", txtHoTen.Text.Trim());
-                    cmd.Parameters.AddWithValue("@ngay_sinh", dtpNgaySinh.Value);
-                    cmd.Parameters.AddWithValue("@gioi_tinh", rbNam.Checked ? 1 : 0);
-                    cmd.Parameters.AddWithValue("@dia_chi", txtDiaChi.Text.Trim());
-                    cmd.Parameters.AddWithValue("@email", txtEmail.Text.Trim());
-                    cmd.Parameters.AddWithValue("@sdt", txtSDT.Text.Trim());
-                    cmd.Parameters.AddWithValue("@trang_thai", cbTrangThai.Text.Trim());
-                    cmd.Parameters.AddWithValue("@khoa_hoc", DBNull.Value);
-                    cmd.Parameters.AddWithValue("@id_lop", cbLop.SelectedValue);
-
-                    cmd.ExecuteNonQuery();
-
-                    MessageBox.Show("Thêm sinh viên thành công!");
-                    LoadSinhVien();
+                        tran.Commit();
+                        MessageBox.Show("Thêm sinh viên thành công!");
+                        LoadSinhVien();
+                    }
+                    catch (Exception ex)
+                    {
+                        tran.Rollback();
+                        MessageBox.Show("Lỗi thêm sinh viên: " + ex.Message);
+                    }
                 }
             }
             catch (Exception ex)
@@ -221,7 +241,23 @@ namespace Education_Manager
                 MessageBox.Show("Lỗi thêm sinh viên: " + ex.Message);
             }
         }
+        private string GenerateNewId(SqlConnection conn, SqlTransaction tran, string tableName, string columnName, string prefix)
+        {
+            string query = $"SELECT TOP 1 {columnName} FROM {tableName} WHERE {columnName} LIKE @prefix + '%' ORDER BY {columnName} DESC";
+            SqlCommand cmd = new SqlCommand(query, conn, tran);
+            cmd.Parameters.AddWithValue("@prefix", prefix);
+            object result = cmd.ExecuteScalar();
 
+            int nextNumber = 1;
+            if (result != null)
+            {
+                string lastId = result.ToString();
+                if (int.TryParse(lastId.Substring(prefix.Length), out int num))
+                    nextNumber = num + 1;
+            }
+
+            return prefix + nextNumber.ToString("D3");
+        }
         private void btnSua_Click(object sender, EventArgs e)
         {
             try
@@ -343,68 +379,10 @@ namespace Education_Manager
 
         }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-        private void OpenChildForm(Form childForm)
-        {
-            foreach (Form form in this.MdiChildren)
-            {
-                form.Close();
-            }
-            childForm.MdiParent = this;
-            childForm.Dock = DockStyle.Fill;
-            childForm.Show();
-        }
-
-        private void thôngTinSinhViênToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new frmQuanLyHocSinh());
-        }
-
-        private void đăngKýHọcToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new frmDangKyHoc());
-        }
-
+    
         private void dgvHocSinh_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex < 0) return;
-
-            DataGridViewRow row = dgvSinhVien.Rows[e.RowIndex];
-
-            // Các cột có thể là null => kiểm tra an toàn
-            txtMaSV.Text = row.Cells["id_sinh_vien"].Value?.ToString() ?? "";
-            txtHoTen.Text = row.Cells["ho_ten"].Value?.ToString() ?? "";
-
-            // Ngày sinh (kiểm tra null)
-            var nsVal = row.Cells["ngay_sinh"].Value;
-            if (nsVal != null && nsVal != DBNull.Value)
-            {
-                DateTime dt;
-                if (DateTime.TryParse(nsVal.ToString(), out dt)) dtpNgaySinh.Value = dt;
-            }
-            else
-            {
-                dtpNgaySinh.Value = DateTime.Now;
-            }
-
-            txtDiaChi.Text = row.Cells["dia_chi"].Value?.ToString() ?? "";
-            txtEmail.Text = row.Cells["email"].Value?.ToString() ?? "";
-            txtSDT.Text = row.Cells["sdt"].Value?.ToString() ?? "";
-            cbTrangThai.Text = row.Cells["trang_thai"].Value?.ToString() ?? "";
-
-            // Set lớp: dùng id_lop ẩn nếu có (an toàn hơn)
-            if (row.Cells["id_lop"].Value != null && row.Cells["id_lop"].Value != DBNull.Value)
-                cbLop.SelectedValue = row.Cells["id_lop"].Value;
-            else if (row.Cells["ten_lop"].Value != null)
-                cbLop.Text = row.Cells["ten_lop"].Value.ToString();
-
-            // Giới tính: bây giờ là chuỗi "Nam"/"Nữ"
-            string gt = row.Cells["gioi_tinh"].Value?.ToString() ?? "";
-            if (gt == "Nam") rbNam.Checked = true;
-            else rbNu.Checked = true;
+           
 
         }
 
@@ -418,6 +396,36 @@ namespace Education_Manager
         private void label6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void dgvSinhVien_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex < 0) return;
+
+            DataGridViewRow row = dgvSinhVien.Rows[e.RowIndex];
+
+            txtMaSV.Text = row.Cells["id_sinh_vien"].Value?.ToString() ?? "";
+            txtHoTen.Text = row.Cells["ho_ten"].Value?.ToString() ?? "";
+
+            var nsVal = row.Cells["ngay_sinh"].Value;
+            if (nsVal != null && nsVal != DBNull.Value && DateTime.TryParse(nsVal.ToString(), out DateTime ns))
+                dtpNgaySinh.Value = ns;
+            else
+                dtpNgaySinh.Value = DateTime.Now;
+
+            txtDiaChi.Text = row.Cells["dia_chi"].Value?.ToString() ?? "";
+            txtEmail.Text = row.Cells["email"].Value?.ToString() ?? "";
+            txtSDT.Text = row.Cells["sdt"].Value?.ToString() ?? "";
+            cbTrangThai.Text = row.Cells["trang_thai"].Value?.ToString() ?? "";
+
+            if (row.Cells["id_lop"].Value != null && row.Cells["id_lop"].Value != DBNull.Value)
+                cbLop.SelectedValue = row.Cells["id_lop"].Value;
+            else if (row.Cells["ten_lop"].Value != null)
+                cbLop.Text = row.Cells["ten_lop"].Value.ToString();
+
+            string gt = row.Cells["gioi_tinh"].Value?.ToString() ?? "";
+            rbNam.Checked = gt == "Nam";
+            rbNu.Checked = gt == "Nữ";
         }
     }
 }
