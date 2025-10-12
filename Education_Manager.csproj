@@ -51,23 +51,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatabaseHelper.cs" />
-    <Compile Include="FormDangKyHoc.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormDangKyHoc.Designer.cs">
-      <DependentUpon>FormDangKyHoc.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmBaoCaoHocKy.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmBaoCaoHocKy.Designer.cs">
       <DependentUpon>frmBaoCaoHocKy.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmDangKyHoc.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmDangKyHoc.Designer.cs">
-      <DependentUpon>frmDangKyHoc.cs</DependentUpon>
     </Compile>
     <Compile Include="frmDangNhap.cs">
       <SubType>Form</SubType>
@@ -167,14 +155,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormDangKyHoc.resx">
-      <DependentUpon>FormDangKyHoc.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmBaoCaoHocKy.resx">
       <DependentUpon>frmBaoCaoHocKy.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmDangKyHoc.resx">
-      <DependentUpon>frmDangKyHoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
