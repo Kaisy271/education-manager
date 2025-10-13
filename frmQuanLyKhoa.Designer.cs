@@ -1,6 +1,6 @@
 ﻿namespace Education_Manager
 {
-    partial class frmQuanLyLop
+    partial class frmQuanLyKhoa
     {
         private System.ComponentModel.IContainer components = null;
 
@@ -31,24 +31,17 @@
             this.label6 = new System.Windows.Forms.Label();
             this.btnTimKiem = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.dgvLopHoc = new System.Windows.Forms.DataGridView();
+            this.dgvKhoa = new System.Windows.Forms.DataGridView();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.cbKhoi = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.numSiSo = new System.Windows.Forms.NumericUpDown();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtTenLop = new System.Windows.Forms.TextBox();
+            this.txtTenKhoa = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.cbGiaoVienCN = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvLopHoc)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvKhoa)).BeginInit();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numSiSo)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -60,7 +53,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(900, 50);
             this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label1
             // 
@@ -69,9 +61,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(20, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(196, 24);
+            this.label1.Size = new System.Drawing.Size(163, 24);
             this.label1.TabIndex = 0;
-            this.label1.Text = "QUẢN LÝ LỚP HỌC";
+            this.label1.Text = "QUẢN LÝ KHOA";
             // 
             // panel2
             // 
@@ -180,9 +172,9 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(10, 30);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(154, 17);
+            this.label6.Size = new System.Drawing.Size(101, 17);
             this.label6.TabIndex = 1;
-            this.label6.Text = "Nhập tên lớp hoặc khối";
+            this.label6.Text = "Nhập tên khoa";
             // 
             // btnTimKiem
             // 
@@ -200,7 +192,7 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.dgvLopHoc);
+            this.panel3.Controls.Add(this.dgvKhoa);
             this.panel3.Controls.Add(this.groupBox3);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 50);
@@ -208,15 +200,15 @@
             this.panel3.Size = new System.Drawing.Size(600, 550);
             this.panel3.TabIndex = 2;
             // 
-            // dgvLopHoc
+            // dgvKhoa
             // 
-            this.dgvLopHoc.AllowUserToAddRows = false;
-            this.dgvLopHoc.AllowUserToDeleteRows = false;
+            this.dgvKhoa.AllowUserToAddRows = false;
+            this.dgvKhoa.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dgvLopHoc.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvLopHoc.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvLopHoc.BackgroundColor = System.Drawing.Color.White;
-            this.dgvLopHoc.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvKhoa.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvKhoa.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvKhoa.BackgroundColor = System.Drawing.Color.White;
+            this.dgvKhoa.BorderStyle = System.Windows.Forms.BorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -224,13 +216,13 @@
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvLopHoc.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvLopHoc.ColumnHeadersHeight = 30;
-            this.dgvLopHoc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvLopHoc.EnableHeadersVisualStyles = false;
-            this.dgvLopHoc.Location = new System.Drawing.Point(0, 150);
-            this.dgvLopHoc.Name = "dgvLopHoc";
-            this.dgvLopHoc.ReadOnly = true;
+            this.dgvKhoa.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvKhoa.ColumnHeadersHeight = 30;
+            this.dgvKhoa.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvKhoa.EnableHeadersVisualStyles = false;
+            this.dgvKhoa.Location = new System.Drawing.Point(0, 120);
+            this.dgvKhoa.Name = "dgvKhoa";
+            this.dgvKhoa.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -238,115 +230,43 @@
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvLopHoc.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgvLopHoc.RowHeadersVisible = false;
-            this.dgvLopHoc.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvLopHoc.Size = new System.Drawing.Size(600, 400);
-            this.dgvLopHoc.TabIndex = 1;
-            this.dgvLopHoc.SelectionChanged += new System.EventHandler(this.dgvLopHoc_SelectionChanged);
+            this.dgvKhoa.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvKhoa.RowHeadersVisible = false;
+            this.dgvKhoa.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvKhoa.Size = new System.Drawing.Size(600, 430);
+            this.dgvKhoa.TabIndex = 1;
+            this.dgvKhoa.SelectionChanged += new System.EventHandler(this.dgvKhoa_SelectionChanged);
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.cbGiaoVienCN);
-            this.groupBox3.Controls.Add(this.label7);
-            this.groupBox3.Controls.Add(this.cbKhoi);
-            this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Controls.Add(this.numSiSo);
-            this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Controls.Add(this.txtTenLop);
+            this.groupBox3.Controls.Add(this.txtTenKhoa);
             this.groupBox3.Controls.Add(this.label3);
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(0, 0);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(600, 150);
+            this.groupBox3.Size = new System.Drawing.Size(600, 120);
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Thông tin lớp học";
-            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
+            this.groupBox3.Text = "Thông tin khoa";
             // 
-            // cbKhoi
+            // txtTenKhoa
             // 
-            this.cbKhoi.FormattingEnabled = true;
-            this.cbKhoi.Location = new System.Drawing.Point(20, 90);
-            this.cbKhoi.Name = "cbKhoi";
-            this.cbKhoi.Size = new System.Drawing.Size(250, 24);
-            this.cbKhoi.TabIndex = 5;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(20, 70);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(40, 17);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Khối:";
-            // 
-            // numSiSo
-            // 
-            this.numSiSo.Location = new System.Drawing.Point(400, 40);
-            this.numSiSo.Maximum = new decimal(new int[] {
-            50,
-            0,
-            0,
-            0});
-            this.numSiSo.Minimum = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.numSiSo.Name = "numSiSo";
-            this.numSiSo.Size = new System.Drawing.Size(180, 23);
-            this.numSiSo.TabIndex = 3;
-            this.numSiSo.Value = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(400, 20);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(43, 17);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Sĩ số:";
-            // 
-            // txtTenLop
-            // 
-            this.txtTenLop.Location = new System.Drawing.Point(20, 40);
-            this.txtTenLop.Name = "txtTenLop";
-            this.txtTenLop.Size = new System.Drawing.Size(350, 23);
-            this.txtTenLop.TabIndex = 1;
+            this.txtTenKhoa.Location = new System.Drawing.Point(20, 70);
+            this.txtTenKhoa.Name = "txtTenKhoa";
+            this.txtTenKhoa.Size = new System.Drawing.Size(344, 23);
+            this.txtTenKhoa.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 20);
+            this.label3.Location = new System.Drawing.Point(20, 50);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 17);
+            this.label3.Size = new System.Drawing.Size(72, 17);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Tên lớp:";
+            this.label3.Text = "Tên khoa:";
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(300, 70);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(141, 17);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Giáo viên chủ nhiệm:";
-            // 
-            // cbGiaoVienCN
-            // 
-            this.cbGiaoVienCN.FormattingEnabled = true;
-            this.cbGiaoVienCN.Location = new System.Drawing.Point(300, 90);
-            this.cbGiaoVienCN.Name = "cbGiaoVienCN";
-            this.cbGiaoVienCN.Size = new System.Drawing.Size(280, 24);
-            this.cbGiaoVienCN.TabIndex = 7;
-            // 
-            // frmQuanLyLop
+            // frmQuanLyKhoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -354,10 +274,9 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "frmQuanLyLop";
+            this.Name = "frmQuanLyKhoa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Quản lý Lớp học";
-            this.Load += new System.EventHandler(this.frmQuanLyLop_Load);
+            this.Text = "Quản lý Khoa";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -365,10 +284,9 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvLopHoc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvKhoa)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numSiSo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -386,15 +304,9 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnTimKiem;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.DataGridView dgvLopHoc;
+        private System.Windows.Forms.DataGridView dgvKhoa;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.ComboBox cbKhoi;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.NumericUpDown numSiSo;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtTenLop;
+        private System.Windows.Forms.TextBox txtTenKhoa;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox cbGiaoVienCN;
-        private System.Windows.Forms.Label label7;
     }
 }

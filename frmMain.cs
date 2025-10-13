@@ -180,5 +180,16 @@ namespace Education_Manager
         {
             OpenChildForm(new frmQuanLyThoiKhoaBieu());
         }
+
+        private void btnQuanLyKhoa_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new frmQuanLyKhoa());
+
+        }
+
+        private void btnQuanLyNganh_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new frmQuanLyNganh());
+        }
     }
 }
