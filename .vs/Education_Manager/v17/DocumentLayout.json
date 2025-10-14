@@ -1,74 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\",
+  "WorkspaceRootPath": "D:\\c#\\education-manager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmquanlykhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlykhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmquanlykhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlykhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmquanlykqht.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlykqht.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmquanlynganh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlynganh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|c:\\users\\nguye\\desktop\\education-manager\\education-manager\\frmquanlynganh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlynganh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmquanlykhoa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlykhoa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|d:\\c#\\education-manager\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmquanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmquanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmquanlynganh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlynganh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmquanlykhoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlykhoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmquanlygiaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmquanlygiaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmbaocaohocky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F5C21E2-06F7-4822-AADC-7BF366746073}|Education_Manager.csproj|solutionrelative:frmbaocaohocky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -81,204 +17,24 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmQuanLyNganh.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyNganh.cs",
-              "RelativeDocumentMoniker": "frmQuanLyNganh.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyNganh.cs",
-              "RelativeToolTip": "frmQuanLyNganh.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T15:48:32.482Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmQuanLyKQHT.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyKQHT.cs",
-              "RelativeDocumentMoniker": "frmQuanLyKQHT.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyKQHT.cs [Design]",
-              "RelativeToolTip": "frmQuanLyKQHT.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T09:32:55.141Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\App.config",
-              "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\App.config",
-              "RelativeToolTip": "App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-10-12T09:17:38.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmQuanLyKhoa.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyKhoa.cs",
-              "RelativeDocumentMoniker": "frmQuanLyKhoa.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyKhoa.cs [Design]",
-              "RelativeToolTip": "frmQuanLyKhoa.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T09:33:42.913Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmQuanLyKhoa.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyKhoa.cs",
-              "RelativeDocumentMoniker": "frmQuanLyKhoa.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyKhoa.cs",
-              "RelativeToolTip": "frmQuanLyKhoa.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAIwF8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T09:26:52.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\DatabaseHelper.cs",
-              "RelativeDocumentMoniker": "DatabaseHelper.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\DatabaseHelper.cs",
-              "RelativeToolTip": "DatabaseHelper.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAqwB4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T09:17:34.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmQuanLyNganh.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyNganh.cs",
-              "RelativeDocumentMoniker": "frmQuanLyNganh.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyNganh.cs [Design]",
-              "RelativeToolTip": "frmQuanLyNganh.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T15:50:48.645Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmQuanLyKhoa.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyKhoa.Designer.cs",
-              "RelativeDocumentMoniker": "frmQuanLyKhoa.Designer.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyKhoa.Designer.cs",
-              "RelativeToolTip": "frmQuanLyKhoa.Designer.cs",
-              "ViewState": "AgIAANwAAAAAAAAAAAAUwOkAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T09:26:45.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "frmQuanLyNganh.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyNganh.Designer.cs",
-              "RelativeDocumentMoniker": "frmQuanLyNganh.Designer.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyNganh.Designer.cs",
-              "RelativeToolTip": "frmQuanLyNganh.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T15:48:29.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frmMain.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmMain.cs",
-              "RelativeDocumentMoniker": "frmMain.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmMain.cs",
-              "RelativeToolTip": "frmMain.cs",
-              "ViewState": "AgIAAKsAAAAAAAAAAAArwLYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T09:28:50.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "frmMain.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmMain.cs",
+              "DocumentMoniker": "D:\\c#\\education-manager\\frmMain.cs",
               "RelativeDocumentMoniker": "frmMain.cs",
-              "ToolTip": "E:\\LamViecHienTai\\DaoTrungNguyen\\education-manager\\frmMain.cs [Design]",
+              "ToolTip": "D:\\c#\\education-manager\\frmMain.cs [Design]",
+              "RelativeToolTip": "frmMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T09:28:14.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "frmQuanLyLop.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyLop.cs",
-              "RelativeDocumentMoniker": "frmQuanLyLop.cs",
-              "ToolTip": "E:\\LamViecHienTai\\DaoTrungNguyen\\education-manager\\frmQuanLyLop.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T15:48:16.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "frmQuanLyLop.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyLop.cs",
-              "RelativeDocumentMoniker": "frmQuanLyLop.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyLop.cs",
-              "RelativeToolTip": "frmQuanLyLop.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T15:50:34.058Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "frmQuanLyKhoi.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyKhoi.cs",
-              "RelativeDocumentMoniker": "frmQuanLyKhoi.cs",
-              "ToolTip": "E:\\LamViecHienTai\\DaoTrungNguyen\\education-manager\\frmQuanLyKhoi.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T09:32:48.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "frmQuanLyGiaoVien.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyGiaoVien.cs",
-              "RelativeDocumentMoniker": "frmQuanLyGiaoVien.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmQuanLyGiaoVien.cs [Design]",
-              "RelativeToolTip": "frmQuanLyGiaoVien.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T09:18:37.056Z",
+              "WhenOpened": "2025-10-14T18:46:52.227Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "frmDangNhap.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmDangNhap.cs",
-              "RelativeDocumentMoniker": "frmDangNhap.cs",
-              "ToolTip": "E:\\LamViecHienTai\\DaoTrungNguyen\\education-manager\\frmDangNhap.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T09:18:35.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "frmBaoCaoHocKy.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\education-manager\\education-manager\\frmBaoCaoHocKy.cs",
-              "RelativeDocumentMoniker": "frmBaoCaoHocKy.cs",
-              "ToolTip": "E:\\LamViecHienTai\\DaoTrungNguyen\\education-manager\\frmBaoCaoHocKy.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T09:18:33.519Z"
             }
           ]
         }

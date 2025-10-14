@@ -191,5 +191,15 @@ namespace Education_Manager
         {
             OpenChildForm(new frmQuanLyNganh());
         }
+
+        private void btnQuanLyTaiChinh_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new frmQuanLyTaiChinhMain());
+        }
+
+        private void quảnLýTàiChínhToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new frmQuanLyTaiChinhMain());
+        }
     }
 }

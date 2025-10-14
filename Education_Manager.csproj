@@ -81,6 +81,18 @@
     <Compile Include="frmQuanLyCoSoVatChat.Designer.cs">
       <DependentUpon>frmQuanLyCoSoVatChat.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmQuanLyHocPhiNganh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyHocPhiNganh.Designer.cs">
+      <DependentUpon>frmQuanLyHocPhiNganh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLyHocPhiSinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyHocPhiSinhVien.Designer.cs">
+      <DependentUpon>frmQuanLyHocPhiSinhVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmQuanLyKQHT.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,11 +111,23 @@
     <Compile Include="frmQuanLyKhoa.Designer.cs">
       <DependentUpon>frmQuanLyKhoa.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmQuanLyLoaiThuChi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyLoaiThuChi.Designer.cs">
+      <DependentUpon>frmQuanLyLoaiThuChi.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmQuanLyNganh.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmQuanLyNganh.Designer.cs">
       <DependentUpon>frmQuanLyNganh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLyPhieuThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyPhieuThu.Designer.cs">
+      <DependentUpon>frmQuanLyPhieuThu.cs</DependentUpon>
     </Compile>
     <Compile Include="frmQuanLySinhVien.cs">
       <SubType>Form</SubType>
@@ -147,6 +171,12 @@
     <Compile Include="frmQuanLyNguoiDung.Designer.cs">
       <DependentUpon>frmQuanLyNguoiDung.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmQuanLyTaiChinhMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyTaiChinhMain.Designer.cs">
+      <DependentUpon>frmQuanLyTaiChinhMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmQuanLyThoiKhoaBieu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -182,14 +212,26 @@
     <EmbeddedResource Include="frmQuanLyGiaoVien.resx">
       <DependentUpon>frmQuanLyGiaoVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLyHocPhiNganh.resx">
+      <DependentUpon>frmQuanLyHocPhiNganh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLyHocPhiSinhVien.resx">
+      <DependentUpon>frmQuanLyHocPhiSinhVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmQuanLyKhoa.resx">
       <DependentUpon>frmQuanLyKhoa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmQuanLyKQHT.resx">
       <DependentUpon>frmQuanLyKQHT.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLyLoaiThuChi.resx">
+      <DependentUpon>frmQuanLyLoaiThuChi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmQuanLyNganh.resx">
       <DependentUpon>frmQuanLyNganh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLyPhieuThu.resx">
+      <DependentUpon>frmQuanLyPhieuThu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmQuanLySinhVien.resx">
       <DependentUpon>frmQuanLySinhVien.cs</DependentUpon>
@@ -199,6 +241,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmQuanLyLop.resx">
       <DependentUpon>frmQuanLyLop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLyTaiChinhMain.resx">
+      <DependentUpon>frmQuanLyTaiChinhMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmQuanLyThoiKhoaBieu.resx">
       <DependentUpon>frmQuanLyThoiKhoaBieu.cs</DependentUpon>
